@@ -39,7 +39,6 @@ $(document).ready(function() {
 		    } else {
 		    	$('.submit-btn').show();
 		    	$('#next').hide();	
-		    	$('.refresh-btn').show();
 		    	$('.last-slide').prepend('<h3>Let\'s see what you got!</h3>');
 			}
 		});	
@@ -61,12 +60,16 @@ $(document).ready(function() {
 			$('#next').hide();
 			$('.submit-btn').hide();
 		}
-		$('.refresh-btn').show();
+			$('.refresh-btn').show();
 			//refresh button
 			$('.refresh-btn').click(function() {
 				window.location.reload();
 
 			});
+			
 		event.preventDefault();
 	});	
+	$('.submit-btn').click(function(){
+				$(".last-slide").hide();
+			});
 });
