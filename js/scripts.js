@@ -10,6 +10,7 @@ $(document).ready(function() {
 	var totalQuestions = $('.question').size();
 	//set current question
 	var currentQuestion = 0;
+	//Start using '$' in front of jQuery variable selectors
 	$questions = $('.question');
 
 
@@ -17,6 +18,7 @@ $(document).ready(function() {
 	//Hide all the questions
 	$questions.hide();
 
+	//initially hide all the buttons
 	$('.submit-btn').hide();
 	$('.refresh-btn').hide();
 	
@@ -27,6 +29,8 @@ $(document).ready(function() {
 		//Show first question
 		$($questions.get(currentQuestion)).fadeIn();
 
+		//when next btn clicked get question that is after current question that user is on
+		//if the current question is less than or equal to 4 or greater than 5 run this block
 		$('#next').click(function(){
 			if((currentQuestion <= 4) || (currentQuestion > 5)){
 				$($questions.get(currentQuestion)).fadeOut(function(){
@@ -35,7 +39,7 @@ $(document).ready(function() {
 				console.log(currentQuestion);
 				
 		    });
-		    
+		//everything else hide the next button, show the submit button, and add in the last slide class.    
 		    } else {
 		    	$('.submit-btn').show();
 		    	$('#next').hide();	
@@ -51,6 +55,8 @@ $(document).ready(function() {
 			userInput = parseInt(userInput);
 			total += userInput;
 		}
+
+		//set variables equal to array with index of [total] from loop above
 		var destinations = (destinationArr[total]);
 		var pictures = (destinationPic[total]);
 
@@ -60,6 +66,7 @@ $(document).ready(function() {
 			$('#next').hide();
 			$('.submit-btn').hide();
 		}
+			//refresh show after if statement runs
 			$('.refresh-btn').show();
 			//refresh button
 			$('.refresh-btn').click(function() {
@@ -69,7 +76,8 @@ $(document).ready(function() {
 			
 		event.preventDefault();
 	});	
+	//submit button hides let's see what you got when pressed.
 	$('.submit-btn').click(function(){
-				$(".last-slide").hide();
-			});
+		$(".last-slide").hide();
+	});
 });
