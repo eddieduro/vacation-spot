@@ -19,3 +19,77 @@ Hero Section
 	color: white;
 	height: 500px;
 }
+
+.tokyo {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.berlin {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.london {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.dublin {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.hanoi {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.bangkok {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.shanghai {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.paris {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.moscow {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
+
+.jumbotron {
+	position: relative;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*===========
+Fonts
+============*/
+h1 {
+	font-size: 70pt;
+}
+
+h4 {
+	font-size: 30pt;
+}
