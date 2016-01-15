@@ -62,7 +62,7 @@ $(document).ready(function() {
 
 		if ($("h1").text(destinations).prepend("<h4>Your next destination is :</h4>")) {
 			$("div.hero").addClass(pictures);
-			$("div.hero > div").removeClass("jumbotron");
+			$("div.hero > div").removeClass("gif-hero");
 			$('#next').hide();
 			$('.submit-btn').hide();
 		}
