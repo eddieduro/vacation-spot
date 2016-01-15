@@ -3,9 +3,9 @@ $(document).ready(function() {
 	var userInput;
 
 	//store destinations in array
-	var destinationArr = ['Seoul', 'Tokyo', 'Shanghai', 'Shanghai', 'Hanoi', 'Hanoi', 'Bangkok', 'Bangkok', 'Berlin', 'Berlin', 'London', 'London', 'Dublin', 'Paris', 'Paris', 'Moscow'];
+	var destinationArr = ['Seoul', 'Tokyo', 'Shanghai', 'Shanghai', 'Hanoi', 'Hanoi', 'Bangkok', 'Bangkok', 'Berlin', 'Berlin', 'London', 'London', 'Dublin', 'Paris', 'Paris', 'Chernobyl'];
 	//store picture css class names in array
-	var destinationPic = ['seoul', 'tokyo',  'shanghai', 'shanghai', 'hanoi', 'hanoi', 'bangkok', 'bangkok', 'berlin', 'berlin', 'london', 'london', 'dublin', 'paris', 'paris', 'moscow'];
+	var destinationPic = ['seoul', 'tokyo',  'shanghai', 'shanghai', 'hanoi', 'hanoi', 'bangkok', 'bangkok', 'berlin', 'berlin', 'london', 'london', 'dublin', 'paris', 'paris', 'chernobyl'];
 
 
 	//Section that reveals your destination
