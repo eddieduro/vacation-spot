@@ -43,9 +43,12 @@ Hero Section
 .hero > h4 {
  	padding-top: 200px;
 }
-
+/*===============
+Seoul
+=================*/
 .seoul {
 	background: url("../img/seoul.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
@@ -58,9 +61,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+Tokyo
+=================*/
 .tokyo {
 	background: url("../img/tokyo.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 	.tokyo h1 {
@@ -72,9 +78,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+Berlin
+=================*/
 .berlin {
 	background: url("../img/berlin.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 	.berlin h1 {
@@ -86,9 +95,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+London
+=================*/
 .london {
 	background: url("../img/london.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
@@ -101,9 +113,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+Dublin
+=================*/
 .dublin {
 	background: url("../img/dublin.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 	.dublin h1 {
@@ -115,9 +130,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+Hanoi
+=================*/
 .hanoi {
 	background: url("../img/hanoi.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
@@ -130,9 +148,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+bangkok
+=================*/
 .bangkok {
 	background: url("../img/bangkok.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
@@ -145,9 +166,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+Shanghai
+=================*/
 .shanghai {
 	background: url("../img/shanghai.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
@@ -160,9 +184,12 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
+/*===============
+Paris
+=================*/
 .paris {
 	background: url("../img/paris.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
@@ -175,18 +202,21 @@ Hero Section
 		color: white;
 		font-weight: bold;
 	}
-
-.moscow {
+/*===============
+Chernobyl
+=================*/
+.chernobyl {
 	background: url("../img/moscow.jpg") center;
+	background-size: cover;
 	height: 600px;
 }
 
-	.moscow h1 {
+	.chernobyl h1 {
 		color: white;
 		font-weight: bold;
 	}
 
-	.moscow > h1 > h4 {
+	.chernobyl > h1 > h4 {
 		color: white;
 		font-weight: bold;
 	}
