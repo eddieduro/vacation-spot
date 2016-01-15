@@ -17,6 +17,7 @@ $(document).ready(function() {
 
   //reveal button
   $('.reveal-btn').click(function() {
+    $('#begin-pad>h2').hide();
     $('form').show();
     $('.reveal-btn').hide();
     //Show first question
