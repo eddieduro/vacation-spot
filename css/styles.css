@@ -1,3 +1,21 @@
 body {
 	font-family: sans-serif;
 }
+
+/*=====================
+Hero Section
+======================*/
+
+.hero {
+	margin-top: -20px;
+}
+
+.hero h1 h4 {
+ 	padding-top: 200px;
+}
+
+.seoul {
+	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	color: white;
+	height: 500px;
+}
