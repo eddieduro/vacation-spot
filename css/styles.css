@@ -2,6 +2,36 @@ body {
 	font-family: sans-serif;
 }
 
+/*===========
+Fonts
+============*/
+h1 {
+	padding-top: 150px;
+	font-size: 70pt;
+}
+
+h4 {
+	font-size: 30pt;
+}
+
+.gif-hero > h1 {
+	color: whitesmoke;
+	padding-top: 150px;
+	font-size: 70pt;
+}
+
+
+
+
+/*============
+Hero-Gif
+-------------*/
+.gif-hero {
+	background: url("https://media.giphy.com/media/z5hTFd1eNwn6w/giphy.gif");
+	background-size: cover;
+	height: 500px;
+}
+
 /*=====================
 Hero Section
 ======================*/
@@ -10,16 +40,24 @@ Hero Section
 	margin-top: -20px;
 }
 
-.hero h1 h4 {
+.hero > h4 {
  	padding-top: 200px;
 }
 
 .seoul {
 	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
 	height: 500px;
 }
 
+.seoul h1 {
+	color: white;
+	font-weight: bold;
+}
+
+.seoul > h1 > h4 {
+	color: white;
+	font-weight: bold;
+}
 .tokyo {
 	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
 	color: white;
@@ -83,16 +121,6 @@ Hero Section
     overflow: hidden;
 }
 
-/*===========
-Fonts
-============*/
-h1 {
-	font-size: 70pt;
-}
-
-h4 {
-	font-size: 30pt;
-}
 
 /*===========
 Form
@@ -106,6 +134,7 @@ form {
 Buttons
 ==============*/
 
-.btn-reveal {
-	
+.button-pad {
+	padding-top: 50px;
 }
+
