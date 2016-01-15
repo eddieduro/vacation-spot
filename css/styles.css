@@ -29,7 +29,7 @@ Hero-Gif
 .gif-hero {
 	background: url("https://media.giphy.com/media/z5hTFd1eNwn6w/giphy.gif");
 	background-size: cover;
-	height: 500px;
+	height: 600px;
 }
 
 /*=====================
@@ -46,7 +46,7 @@ Hero Section
 
 .seoul {
 	background: url("../img/seoul.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.seoul h1 {
@@ -61,7 +61,7 @@ Hero Section
 
 .tokyo {
 	background: url("../img/tokyo.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 	.tokyo h1 {
 		color: white;
@@ -75,7 +75,7 @@ Hero Section
 
 .berlin {
 	background: url("../img/berlin.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 	.berlin h1 {
 		color: white;
@@ -89,7 +89,7 @@ Hero Section
 
 .london {
 	background: url("../img/london.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.london h1 {
@@ -104,7 +104,7 @@ Hero Section
 
 .dublin {
 	background: url("../img/dublin.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 	.dublin h1 {
 		color: white;
@@ -118,7 +118,7 @@ Hero Section
 
 .hanoi {
 	background: url("../img/hanoi.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.hanoi h1 {
@@ -133,7 +133,7 @@ Hero Section
 
 .bangkok {
 	background: url("../img/bangkok.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.bangkok h1 {
@@ -148,7 +148,7 @@ Hero Section
 
 .shanghai {
 	background: url("../img/shanghai.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.shanghai h1 {
@@ -163,7 +163,7 @@ Hero Section
 
 .paris {
 	background: url("../img/paris.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.paris h1 {
@@ -178,7 +178,7 @@ Hero Section
 
 .moscow {
 	background: url("../img/moscow.jpg") center;
-	height: 500px;
+	height: 600px;
 }
 
 	.moscow h1 {
