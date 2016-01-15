@@ -45,72 +45,151 @@ Hero Section
 }
 
 .seoul {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
+	background: url("../img/seoul.jpg") center;
 	height: 500px;
 }
 
-.seoul h1 {
-	color: white;
-	font-weight: bold;
-}
+	.seoul h1 {
+		color: white;
+		font-weight: bold;
+	}
 
-.seoul > h1 > h4 {
-	color: white;
-	font-weight: bold;
-}
+	.seoul > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
+
 .tokyo {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/tokyo.jpg") center;
 	height: 500px;
 }
+	.tokyo h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.tokyo > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .berlin {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/berlin.jpg") center;
 	height: 500px;
 }
+	.berlin h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.berlin > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .london {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/london.jpg") center;
 	height: 500px;
 }
+
+	.london h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.london > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .dublin {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/dublin.jpg") center;
 	height: 500px;
 }
+	.dublin h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.dublin > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .hanoi {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/hanoi.jpg") center;
 	height: 500px;
 }
+
+	.hanoi h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.hanoi > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .bangkok {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/bangkok.jpg") center;
 	height: 500px;
 }
+
+	.bangkok h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.bangkok > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .shanghai {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/shanghai.jpg") center;
 	height: 500px;
 }
+
+	.shanghai h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.shanghai > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .paris {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/paris.jpg") center;
 	height: 500px;
 }
 
+	.paris h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.paris > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
+
 .moscow {
-	background: url("http://www.remotelands.com/blog/wp-content/uploads/2013/03/Taking-a-Stroll-Through-Seoul-The-Streets-of-South-Korea%E2%80%99s-Capital_main.jpg") center;
-	color: white;
+	background: url("../img/moscow.jpg") center;
 	height: 500px;
 }
+
+	.moscow h1 {
+		color: white;
+		font-weight: bold;
+	}
+
+	.moscow > h1 > h4 {
+		color: white;
+		font-weight: bold;
+	}
 
 .jumbotron {
 	position: relative;
@@ -137,4 +216,3 @@ Buttons
 .button-pad {
 	padding-top: 50px;
 }
-
