@@ -8,8 +8,6 @@ $(document).ready(function() {
 			var userInput = $("input[name=radios" + i + "]:checked").val();
 			userInput = parseInt(userInput);
 			total += userInput;
-		} if (!userInput){
-			alert("hey");
 		}
 		var destinations = (destinationArr[total]);
 		$("h1").text(destinations).prepend("<h4>Your next destination is :</h4>");
