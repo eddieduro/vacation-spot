@@ -17,12 +17,9 @@ $(document).ready(function() {
 	//Hide all the questions
 	$questions.hide();
 
-	
-	//hidden submit + refresh button
 	$('.submit-btn').hide();
 	$('.refresh-btn').hide();
-
-
+	
 	//reveal button
 	$('.reveal-btn').click(function() {
 		$('form').show();
@@ -31,38 +28,22 @@ $(document).ready(function() {
 		$($questions.get(currentQuestion)).fadeIn();
 
 		$('#next').click(function(){
-			for(var i = 1; i < 6; i ++ ) {
-			$($questions.get(currentQuestion)).fadeOut(function(){
+			if((currentQuestion <= 4) || (currentQuestion > 5)){
+				$($questions.get(currentQuestion)).fadeOut(function(){
 				currentQuestion += 1;
 				$($questions.get(currentQuestion)).fadeIn();
-			});
-		}
-			console.log(currentQuestion);
-			
-		    if (currentQuestion === 5) {
-				$('refresh-btn').show();
-					//refresh button
-					$('.refresh-btn').click(function() {
-						window.location.reload();
-
-			});
-
-		};	
+				console.log(currentQuestion);
+				
+		    });
+		    
+		    } else {
+		    	$('.submit-btn').show();
+		    	$('#next').hide();	
+		    	$('.refresh-btn').show();
+		    	$('.last-slide').prepend('<h3>Let\'s see what you got!</h3>');
+			}
+		});	
 	});
-
-		// //Show one question at a time.
-		// for(var q = 1; q < 6; q ++) {
-		// 	var question = $("#question" + q ).data("value");
-		// 	total += question;
-		// 	alert(total);
-		// }
-		// console.log(total);
-		// if (total === 1 ) {
-		// 	$(question).each().hide();
-		// }
-	});
-
-
 
 	//Section that reveals your destination
 	$("form").submit(function(event) {
@@ -77,8 +58,15 @@ $(document).ready(function() {
 		if ($("h1").text(destinations).prepend("<h4>Your next destination is :</h4>")) {
 			$("div.hero").addClass(pictures);
 			$("div.hero > div").removeClass("jumbotron");
+			$('#next').hide();
+			$('.submit-btn').hide();
 		}
-		
+		$('.refresh-btn').show();
+			//refresh button
+			$('.refresh-btn').click(function() {
+				window.location.reload();
+
+			});
 		event.preventDefault();
 	});	
 });
