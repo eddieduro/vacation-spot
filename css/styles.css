@@ -14,10 +14,16 @@ Fonts
 h1 {
 	padding-top: 150px;
 	font-size: 70pt;
+	font-family: 'Cambay', sans-serif;
 }
 
 h4 {
 	font-size: 30pt;
+	font-family: 'Cambay', sans-serif;
+}
+
+h2, h3, h5 {
+	font-family: 'Cambay', sans-serif;
 }
 
 .gif-hero > h1 {
@@ -260,11 +266,55 @@ Buttons
 	padding-top: 50px;
 }
 
+.btn-info {
+	background-color: #84d29b;
+	border: 0;
+}
+
+	.btn-info:active:focus {
+		box-shadow: none;
+		background-color: #84d29b;
+		border: 0;
+	}
+
+	.btn-info:hover {
+		background-color: #4fc974;
+	}
+
+.btn-primary {
+	background-color: #7ed899;
+	border: 0;
+}
+
+	.btn-primary:active:focus {
+		box-shadow: none;
+		background-color: #7ed899;
+		border: 0;
+	}
+
+	.btn-primary:hover {
+		background-color: #57c779
+	}
+
+.btn-success {
+	background-color: #91d9a7;
+	border: 0;
+}
+
+	.btn-success:active:focus {
+		box-shadow: none;
+		background-color: #91d9a7;
+		border: 0;
+	}
+
+	.btn-success:hover {
+		background-color: #57c779;
+	}
 /*=========
 Footer
 ===========*/
 .footer{
-	background-color: #a89090;
+	background-color: #8acc9e;
 	position: absolute;
 	bottom: 0;
 	height: 80px;
@@ -274,6 +324,10 @@ Footer
 .footer-text {
 	padding-top: 50px;
 	color: white;
+}
+.footer-text a {
+	color: white;
+	text-decoration: underline;
 }
 
 #heart {
