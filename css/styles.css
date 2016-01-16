@@ -26,7 +26,7 @@ h2, h3, h5 {
 	font-family: 'Cambay', sans-serif;
 }
 
-.gif-hero > h1 {
+.gif-hero > .container >h1 {
 	color: whitesmoke;
 	padding-top: 150px;
 	font-size: 70pt;
@@ -353,4 +353,13 @@ Footer
 
 #heart {
 	color: red;
+}
+
+/*========
+MEDIA QUERY
+==========*/
+@media (max-width: 440px){
+  .gif-hero > .container >h1 {
+  	font-size: 50pt;
+  }
 }
