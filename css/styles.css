@@ -271,12 +271,17 @@ Buttons
 	border: 0;
 }
 
-	.btn-info:active:focus {
+	.btn-info:active {
 		box-shadow: none;
 		background-color: #84d29b;
 		border: 0;
 	}
 
+	.btn-info:focus {
+		box-shadow: none;
+		background-color: #84d29b;
+		border: 0;
+	}
 	.btn-info:hover {
 		background-color: #4fc974;
 	}
@@ -286,7 +291,13 @@ Buttons
 	border: 0;
 }
 
-	.btn-primary:active:focus {
+	.btn-primary:focus {
+		box-shadow: none;
+		background-color: #7ed899;
+		border: 0;
+	}
+
+	.btn-primary:active {
 		box-shadow: none;
 		background-color: #7ed899;
 		border: 0;
@@ -301,7 +312,13 @@ Buttons
 	border: 0;
 }
 
-	.btn-success:active:focus {
+	.btn-success:focus {
+		box-shadow: none;
+		background-color: #91d9a7;
+		border: 0;
+	}
+
+	.btn-success:active {
 		box-shadow: none;
 		background-color: #91d9a7;
 		border: 0;
@@ -310,6 +327,10 @@ Buttons
 	.btn-success:hover {
 		background-color: #57c779;
 	}
+
+.btn {
+	font-size: 18pt;
+}
 /*=========
 Footer
 ===========*/
