@@ -41,7 +41,7 @@ Hero-Gif
 .gif-hero {
 	background: url("https://media.giphy.com/media/z5hTFd1eNwn6w/giphy.gif");
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 /*==========
@@ -67,7 +67,7 @@ Seoul
 .seoul {
 	background: url("../img/seoul.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.seoul h1 {
@@ -85,7 +85,7 @@ Tokyo
 .tokyo {
 	background: url("../img/tokyo.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 	.tokyo h1 {
 		color: white;
@@ -102,7 +102,7 @@ Berlin
 .berlin {
 	background: url("../img/berlin.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 	.berlin h1 {
 		color: white;
@@ -119,7 +119,7 @@ London
 .london {
 	background: url("../img/london.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.london h1 {
@@ -137,7 +137,7 @@ Dublin
 .dublin {
 	background: url("../img/dublin.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 	.dublin h1 {
 		color: white;
@@ -154,7 +154,7 @@ Hanoi
 .hanoi {
 	background: url("../img/hanoi.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.hanoi h1 {
@@ -172,7 +172,7 @@ bangkok
 .bangkok {
 	background: url("../img/bangkok.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.bangkok h1 {
@@ -190,7 +190,7 @@ Shanghai
 .shanghai {
 	background: url("../img/shanghai.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.shanghai h1 {
@@ -208,7 +208,7 @@ Paris
 .paris {
 	background: url("../img/paris.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.paris h1 {
@@ -226,7 +226,7 @@ Chernobyl
 .chernobyl {
 	background: url("../img/moscow.jpg") center;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 }
 
 	.chernobyl h1 {
@@ -330,6 +330,10 @@ Buttons
 
 .btn {
 	font-size: 18pt;
+}
+
+.reveal-btn {
+	margin-bottom: 20px;
 }
 /*=========
 Footer
