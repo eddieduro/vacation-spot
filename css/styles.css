@@ -170,7 +170,7 @@ Hanoi
 bangkok
 =================*/
 .bangkok {
-	background: url("../img/bangkok.jpg") center;
+	background: url("../img/bangkok.png") center;
 	background-size: cover;
 	height: 500px;
 }
