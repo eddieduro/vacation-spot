@@ -24,7 +24,7 @@ $(document).ready(function() {
 
 		if ($("h1").text(destinations).prepend("<h4>Your next destination is :</h4>")) {
 			$("div.hero").addClass(pictures);
-			$(".links").append("<div><a href=" + links + "></a></div");
+			$(".links .text-center").append('<div><a href="' + links + '">Check out the travel site for your destination!</a></div>');
 			$("div.hero > div").removeClass("gif-hero");
 			$('#next').hide();
 			$('.submit-btn').hide();
