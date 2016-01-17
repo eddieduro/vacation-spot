@@ -359,6 +359,24 @@ Footer
 	color: red;
 }
 
+/*================
+Destination Links
+=================*/
+a {
+ 	color: black;
+ 	font-family: 'Roboto', sans-serif;
+
+ }
+
+a:hover {
+	color: darkgrey;
+}
+
+.links {
+	padding-bottom: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 /*========
 MEDIA QUERY
 ==========*/
