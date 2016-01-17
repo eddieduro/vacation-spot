@@ -362,7 +362,7 @@ Footer
 /*========
 MEDIA QUERY
 ==========*/
-@media (max-width: 440px){
+@media (max-width: 520px){
   .gif-hero > .container >h1 {
   	font-size: 50pt;
   }
